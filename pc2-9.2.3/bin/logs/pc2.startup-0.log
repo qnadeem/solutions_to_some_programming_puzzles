@@ -1,0 +1,9 @@
+140831 101034.465|CONFIG|main|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140831 101034.469|INFO|main|info|
+140831 101034.476|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140831 101034.478|INFO|main|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140831 101034.497|INFO|main|startLog|Process id is 6188@CHIKAANCOMPUTER
+140831 101034.498|INFO|main|start|Starting ConnectionManager...
+140831 101046.055|INFO|main|start|Started ConnectionManager
+140831 101046.058|SEVERE|main|fatalError|Cannot start PC^2, pc2v9.ini file not found in C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140831 101046.058|INFO|main|fatalError|PC^2 halted

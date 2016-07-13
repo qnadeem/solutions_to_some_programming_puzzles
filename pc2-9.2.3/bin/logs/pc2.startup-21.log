@@ -1,0 +1,30 @@
+140916 103257.342|CONFIG|main|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140916 103257.344|INFO|main|info|
+140916 103257.349|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140916 103257.350|INFO|main|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140916 103257.382|INFO|main|startLog|Process id is 5376@CHIKAANCOMPUTER
+140916 103257.383|INFO|main|start|Starting ConnectionManager...
+140916 103310.508|INFO|main|start|Started ConnectionManager
+140916 103310.526|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/Qasim/Documents/CMUQ%20WORK/Fall%202014/Competition%20Progg/pc2-9.2.3/bin/pc2v9.ini
+140916 103310.526|INFO|main|setClientServerAndPort|setClientServerAndPort pc2.qatar.cmu.edu parsed as pc2.qatar.cmu.edu port 50002
+140916 103310.527|INFO|main|info|Contacting server at pc2.qatar.cmu.edu:50002
+140916 103310.528|INFO|main|connectToMyServer|Connecting to pc2.qatar.cmu.edu:50002
+140916 103311.521|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=52554]--6405012521668886426)
+140916 103312.841|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=52554]--6405012521668886426 key is com.sun.crypto.provider.DESKey@fffe7b7c
+140916 103312.842|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+140916 103312.845|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    1274171d 07e81b0e 681cb02b 64f8a86b 964fc7be 78dc4c92 1c7e4bca 7c9259f2
+    a4d571d3 ed3cba84 06c956dd fe451967 ec03797f 4e6845f0 c4aa91b3 b7cf3ff7
+    3493c4b7 bf50d8db da7ab2f4 e2d28e68 c15eef9d 89f7099b ddaa3ba9 d68d437c
+    e2f9a4a4 b38e212c fb19b219 7edde317 44c118f7 aa695638 10263fa0 bccf407d
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+140916 103312.846|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@8272934

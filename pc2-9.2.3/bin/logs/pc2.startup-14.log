@@ -1,0 +1,20 @@
+140907 184458.867|CONFIG|main|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140907 184458.869|INFO|main|info|
+140907 184458.875|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140907 184458.876|INFO|main|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140907 184458.891|INFO|main|startLog|Process id is 4772@CHIKAANCOMPUTER
+140907 184458.891|INFO|main|start|Starting ConnectionManager...
+140907 184512.125|INFO|main|start|Started ConnectionManager
+140907 184512.160|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/Qasim/Documents/CMUQ%20WORK/Fall%202014/Competition%20Progg/pc2-9.2.3/bin/pc2v9.ini
+140907 184512.161|INFO|main|setClientServerAndPort|setClientServerAndPort pc2.qatar.cmu.edu parsed as pc2.qatar.cmu.edu port 50002
+140907 184512.161|INFO|main|info|Contacting server at pc2.qatar.cmu.edu:50002
+140907 184512.163|INFO|main|connectToMyServer|Connecting to pc2.qatar.cmu.edu:50002
+140907 184513.308|INFO|main|<init>|IO Exception:pc2.qatar.cmu.edu
+140907 184513.310|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+140907 184513.311|INFO|main|start|Exception logged 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection refused: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2288)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+140907 184513.311|INFO|main|info|Unable to contact server at pc2.qatar.cmu.edu:0 Connection refused: connect

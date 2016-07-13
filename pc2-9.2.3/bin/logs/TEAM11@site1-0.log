@@ -1,0 +1,26 @@
+140921 212256.349|CONFIG|Thread-5|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140921 212256.349|INFO|Thread-5|info|
+140921 212256.349|INFO|Thread-5|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140921 212256.349|INFO|Thread-5|info|Login: team11 (aka team11)
+140921 212256.349|INFO|Thread-5|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140921 212256.350|INFO|Thread-5|startLog|Process id is 4816@CHIKAANCOMPUTER
+140921 212256.351|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+140921 212256.363|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+140921 212256.649|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+140921 212256.649|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #354 SERVER0 @ site 1 -> TEAM11 @ site 1
+140921 212256.650|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #354 SERVER0 @ site 1 -> TEAM11 @ site 1
+140921 212459.982|INFO|Thread-6|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #358 SERVER0 @ site 1 -> TEAM11 @ site 1
+140921 212459.984|INFO|Thread-6|dumpPacket|Packet RUN_JUDGEMENT (Seq #358 ) recieveObject
+140921 212459.984|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4328894082184257867)
+140921 212459.985|INFO|Thread-6|dumpPacket|    To: TEAM11 @ site 1
+140921 212459.985|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140921 212459.985|INFO|Thread-6|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-5624870967302119305 id JudgementRecord-3506281516221377313
+140921 212459.986|INFO|Thread-6|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 JUDGED7883055 ms from TEAM11 @ site 1 id Run-1217346229769301671
+140921 212459.986|INFO|Thread-6|info|handlePacket start Packet[RUN_JUDGEMENT] #358 SERVER0 @ site 1 -> TEAM11 @ site 1
+140921 212459.986|INFO|Thread-6|dumpPacket|Packet RUN_JUDGEMENT (Seq #358 ) handlePacket
+140921 212459.986|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4328894082184257867)
+140921 212459.987|INFO|Thread-6|dumpPacket|    To: TEAM11 @ site 1
+140921 212459.988|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140921 212459.988|INFO|Thread-6|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Compilation Error-5624870967302119305 id JudgementRecord-3506281516221377313
+140921 212459.988|INFO|Thread-6|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 38 JUDGED7883055 ms from TEAM11 @ site 1 id Run-1217346229769301671
+140921 212505.389|INFO|Thread-6|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #358 SERVER0 @ site 1 -> TEAM11 @ site 1

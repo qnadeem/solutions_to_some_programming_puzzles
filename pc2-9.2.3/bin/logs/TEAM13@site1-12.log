@@ -1,0 +1,25 @@
+140909 145941.280|CONFIG|Thread-5|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140909 145941.281|INFO|Thread-5|info|
+140909 145941.282|INFO|Thread-5|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140909 145941.282|INFO|Thread-5|info|Login: team13 (aka team13)
+140909 145941.283|INFO|Thread-5|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140909 145941.283|INFO|Thread-5|startLog|Process id is 1640@CHIKAANCOMPUTER
+140909 145941.285|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+140909 145941.407|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+140909 145941.929|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+140909 145941.958|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #409 SERVER0 @ site 1 -> TEAM13 @ site 1
+140909 145941.959|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #409 SERVER0 @ site 1 -> TEAM13 @ site 1
+140909 150001.879|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C- Decorating the Pastures Python file: C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\third\ProbC.py
+140909 150001.886|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM13 @ site 1 -> SERVER0 @ site 1
+140909 150001.887|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM13 @ site 1 -> SERVER0 @ site 1
+140909 150002.045|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #411 SERVER0 @ site 1 -> TEAM13 @ site 1
+140909 150002.046|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #411 ) recieveObject
+140909 150002.047|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default--851655828346889825)
+140909 150002.047|INFO|Thread-8|dumpPacket|    To: TEAM13 @ site 1
+140909 150002.048|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 37 NEW158523084 ms from TEAM13 @ site 1 id Run-7220695466944588071
+140909 150002.048|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #411 SERVER0 @ site 1 -> TEAM13 @ site 1
+140909 150002.049|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #411 ) handlePacket
+140909 150002.050|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default--851655828346889825)
+140909 150002.050|INFO|Thread-8|dumpPacket|    To: TEAM13 @ site 1
+140909 150002.050|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 37 NEW158523084 ms from TEAM13 @ site 1 id Run-7220695466944588071
+140909 150003.249|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #411 SERVER0 @ site 1 -> TEAM13 @ site 1

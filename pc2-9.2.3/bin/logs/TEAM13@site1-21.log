@@ -1,0 +1,41 @@
+140916 175805.847|CONFIG|Thread-5|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140916 175805.848|INFO|Thread-5|info|
+140916 175805.848|INFO|Thread-5|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140916 175805.848|INFO|Thread-5|info|Login: team13 (aka team13)
+140916 175805.849|INFO|Thread-5|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140916 175805.849|INFO|Thread-5|startLog|Process id is 2344@CHIKAANCOMPUTER
+140916 175805.851|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+140916 175805.866|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+140916 175806.220|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+140916 175806.222|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #320 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 175806.223|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #320 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183042.571|INFO|Thread-6|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #327 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183042.574|INFO|Thread-6|dumpPacket|Packet RUN_JUDGEMENT (Seq #327 ) recieveObject
+140916 183042.574|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140916 183042.574|INFO|Thread-6|dumpPacket|    To: TEAM13 @ site 1
+140916 183042.575|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140916 183042.575|INFO|Thread-6|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--101765115024086665 id JudgementRecord-1332723679505419247
+140916 183042.576|INFO|Thread-6|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 JUDGED99279385 ms from TEAM13 @ site 1 id Run--8601282084709713273
+140916 183042.576|INFO|Thread-6|info|handlePacket start Packet[RUN_JUDGEMENT] #327 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183042.577|INFO|Thread-6|dumpPacket|Packet RUN_JUDGEMENT (Seq #327 ) handlePacket
+140916 183042.577|INFO|Thread-6|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140916 183042.577|INFO|Thread-6|dumpPacket|    To: TEAM13 @ site 1
+140916 183042.578|INFO|Thread-6|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140916 183042.578|INFO|Thread-6|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--101765115024086665 id JudgementRecord-1332723679505419247
+140916 183042.578|INFO|Thread-6|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 JUDGED99279385 ms from TEAM13 @ site 1 id Run--8601282084709713273
+140916 183221.168|INFO|Thread-7|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #331 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183221.169|INFO|Thread-7|dumpPacket|Packet RUN_JUDGEMENT (Seq #331 ) recieveObject
+140916 183221.169|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140916 183221.170|INFO|Thread-7|dumpPacket|    To: TEAM13 @ site 1
+140916 183221.170|INFO|Thread-7|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140916 183221.170|INFO|Thread-7|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--101765115024086665 id JudgementRecord--109570292358572777
+140916 183221.171|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 JUDGED97253214 ms from TEAM13 @ site 1 id Run--8918936995161451554
+140916 183221.171|INFO|Thread-7|info|handlePacket start Packet[RUN_JUDGEMENT] #331 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183221.171|INFO|Thread-7|dumpPacket|Packet RUN_JUDGEMENT (Seq #331 ) handlePacket
+140916 183221.172|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140916 183221.172|INFO|Thread-7|dumpPacket|    To: TEAM13 @ site 1
+140916 183221.172|INFO|Thread-7|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+140916 183221.173|INFO|Thread-7|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--101765115024086665 id JudgementRecord--109570292358572777
+140916 183221.173|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 JUDGED97253214 ms from TEAM13 @ site 1 id Run--8918936995161451554
+140916 183547.950|INFO|Thread-7|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #331 SERVER0 @ site 1 -> TEAM13 @ site 1
+140916 183550.178|INFO|Thread-6|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #327 SERVER0 @ site 1 -> TEAM13 @ site 1

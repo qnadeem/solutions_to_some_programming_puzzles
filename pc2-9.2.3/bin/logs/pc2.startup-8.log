@@ -1,0 +1,63 @@
+140831 185834.606|CONFIG|main|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140831 185834.609|INFO|main|info|
+140831 185834.614|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140831 185834.615|INFO|main|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140831 185834.630|INFO|main|startLog|Process id is 3504@CHIKAANCOMPUTER
+140831 185834.630|INFO|main|start|Starting ConnectionManager...
+140831 185847.109|INFO|main|start|Started ConnectionManager
+140831 185847.113|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/Qasim/Documents/CMUQ%20WORK/Fall%202014/Competition%20Progg/pc2-9.2.3/bin/pc2v9.ini
+140831 185847.114|INFO|main|setClientServerAndPort|setClientServerAndPort pc2.qatar.cmu.edu parsed as pc2.qatar.cmu.edu port 50002
+140831 185847.114|INFO|main|info|Contacting server at pc2.qatar.cmu.edu:50002
+140831 185847.116|INFO|main|connectToMyServer|Connecting to pc2.qatar.cmu.edu:50002
+140831 185847.351|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=50274]--6154821999849417038)
+140831 185847.519|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=50274]--6154821999849417038 key is com.sun.crypto.provider.DESKey@fffe7b24
+140831 185847.520|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+140831 185847.531|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    40e331e2 62273764 30c0e3c0 1300a981 3fb1aa31 a790e327 7698b902 4d03eb10
+    9d478627 923f5e83 b6dc7385 7b912a25 8cf404cd 0c0cc253 d92dab83 26c6ac68
+    63fc26ed 696ca639 cd2d2946 94cb4a50 84572f2c 4c034743 402b585e da2da42f
+    73d51c41 0f88d6fe 41b56b8b 365b7cbb 0f8bf994 46a4b642 1d5bc7df fc1d9daa
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+140831 185847.532|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6581add1
+140831 214639.786|INFO|Thread-1|receive|SocketException in receive for Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=50274]--6154821999849417038
+|java.net.SocketException: Software caused connection abort: recv failed
+|    at java.net.SocketInputStream.socketRead0 (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+140831 214639.788|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Software caused connection abort: recv failed
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+140831 214639.789|INFO|Thread-1|receive|SocketException in receive for Socket[addr=pc2.qatar.cmu.edu/86.36.46.144,port=50002,localport=50274]--6154821999849417038
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+140831 214639.789|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)

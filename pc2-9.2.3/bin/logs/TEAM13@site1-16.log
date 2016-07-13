@@ -1,0 +1,39 @@
+140915 220207.982|CONFIG|Thread-5|setFileHandlers|Now logging to C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin\logs directory.
+140915 220207.983|INFO|Thread-5|info|
+140915 220207.983|INFO|Thread-5|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_20 build 2565 Windows 7 6.1 (amd64) 
+140915 220207.983|INFO|Thread-5|info|Login: team13 (aka team13)
+140915 220207.983|INFO|Thread-5|startLog|Working directory is C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\pc2-9.2.3\bin
+140915 220207.984|INFO|Thread-5|startLog|Process id is 5548@CHIKAANCOMPUTER
+140915 220207.985|INFO|Thread-5|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+140915 220207.999|INFO|Thread-5|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+140915 220208.353|INFO|Thread-5|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+140915 220208.354|INFO|Thread-5|info|handlePacket end Packet[LOGIN_SUCCESS] #291 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 220208.354|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #291 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 220236.218|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for C - Escaping the Farm Python file: C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\fourth\PrC.py
+140915 220236.224|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM13 @ site 1 -> SERVER0 @ site 1
+140915 220236.224|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM13 @ site 1 -> SERVER0 @ site 1
+140915 220237.066|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #293 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 220237.067|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #293 ) recieveObject
+140915 220237.067|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140915 220237.067|INFO|Thread-8|dumpPacket|    To: TEAM13 @ site 1
+140915 220237.068|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 NEW97253214 ms from TEAM13 @ site 1 id Run--8918936995161451554
+140915 220237.068|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #293 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 220237.068|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #293 ) handlePacket
+140915 220237.069|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140915 220237.069|INFO|Thread-8|dumpPacket|    To: TEAM13 @ site 1
+140915 220237.069|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 NEW97253214 ms from TEAM13 @ site 1 id Run--8918936995161451554
+140915 220237.923|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #293 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 223622.380|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for A - Milk Scheduling Python file: C:\Users\Qasim\Documents\CMUQ WORK\Fall 2014\Competition Progg\fourth\PrA.py
+140915 223622.382|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM13 @ site 1 -> SERVER0 @ site 1
+140915 223622.384|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM13 @ site 1 -> SERVER0 @ site 1
+140915 223623.185|INFO|Thread-10|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #295 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 223623.185|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #295 ) recieveObject
+140915 223623.185|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140915 223623.185|INFO|Thread-10|dumpPacket|    To: TEAM13 @ site 1
+140915 223623.185|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 NEW99279385 ms from TEAM13 @ site 1 id Run--8601282084709713273
+140915 223623.186|INFO|Thread-10|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #295 SERVER0 @ site 1 -> TEAM13 @ site 1
+140915 223623.186|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #295 ) handlePacket
+140915 223623.186|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (pc2 @ 127.0.1.1) (Contest Id: Default-4042054543451503544)
+140915 223623.186|INFO|Thread-10|dumpPacket|    To: TEAM13 @ site 1
+140915 223623.186|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 36 NEW99279385 ms from TEAM13 @ site 1 id Run--8601282084709713273
+140915 223624.027|INFO|Thread-10|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #295 SERVER0 @ site 1 -> TEAM13 @ site 1
