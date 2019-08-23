@@ -39,8 +39,3 @@ while summ>2 and B[2]>0 and B[1]>0:
     summ = sum(B)
     
 print table
-
-
-As a human being, you have no choice about the fact that you need a philosophy. Your only choice is whether you define your philosophy by a conscious, rational, disciplined process of thought and scrupulously logical deliberation — or let your subconscious accumulate a junk heap of unwarranted conclusions, false generalizations, undefined contradictions, undigested slogans, unidentified wishes, doubts and fears, thrown together by chance, but integrated by your subconscious into a kind of mongrel philosophy and fused into a single, solid weight: self-doubt, like a ball and chain in the place where your mind's wings should have grown.
-
- Nice! haha I'm going to read Kant and Aristotle's ethical theories next in class  I remember my philosophy proff making fun of Ayn Rand bcs she's an egoist. this article's very interesting though
